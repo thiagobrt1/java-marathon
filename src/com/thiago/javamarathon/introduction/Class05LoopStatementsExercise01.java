@@ -1,0 +1,13 @@
+package com.thiago.javamarathon.introduction;
+
+// Print all even numbers from 0 to 500.
+
+public class Class05LoopStatementsExercise01{
+    public static void main(String[] args){
+        for(int i = 0; i <= 500; i++){
+            if(i % 2 == 0){
+                System.out.println(i);
+            }
+        }
+    }
+}
