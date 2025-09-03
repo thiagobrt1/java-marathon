@@ -1,6 +1,6 @@
 # 🏃 Java Marathon
 
-This repository contains my personal progress while studying **Java from scratch** through the [DevDojo Academy - Java One For All](https://www.youtube.com/watch?v=GXt46-Npz0Y&list=PL0Un1HNdB4jGKw5szJrQETqJTlZKyKReu&index=1) course on YouTube.  
+This repository contains my personal progress while studying **Java from scratch** through the [DevDojo Academy Java One For All](https://www.youtube.com/watch?v=GXt46-Npz0Y&list=PL0Un1HNdB4jGKw5szJrQETqJTlZKyKReu&index=1) course on YouTube.  
 The main goal is to build a solid foundation in Java by following all **284 lessons**.
 
 ---
@@ -47,13 +47,12 @@ The main goal is to build a solid foundation in Java by following all **284 less
 ---
 
 ## 🚀 Current Status
-Currently finished the **Introduction** section (lesson 38).  
-Starting next: **Object-Oriented Programming**.
+Currently on **Object-Oriented Programming** section.
 
 ---
 
 ## 🙌 Credits & References
 This project is entirely based on the course:  
-**[Java One For All – DevDojo Academy](https://www.youtube.com/watch?v=GXt46-Npz0Y&list=PL0Un1HNdB4jGKw5szJrQETqJTlZKyKReu&index=1)**
+**[Java One For All by DevDojo Academy](https://www.youtube.com/watch?v=GXt46-Npz0Y&list=PL0Un1HNdB4jGKw5szJrQETqJTlZKyKReu&index=1)**
 
 ---
