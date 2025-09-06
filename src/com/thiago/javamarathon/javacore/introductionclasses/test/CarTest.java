@@ -22,5 +22,9 @@ public class CarTest{
         car2.model = "Skyline";
         car2.year = 1999;
         System.out.println("Car: " + car2.name + " Model: " + car2.model + " Year: " + car2.year);
+
+        // car1 now references the same object as car2
+        car1 = car2;
+        System.out.println("Car: " + car1.name + " Model: " + car1.model + " Year: " + car1.year);
     }
 }
