@@ -5,6 +5,7 @@ import com.thiago.javamarathon.javacore.introductionclasses.domain.Student;
 public class StudentTest01{
     public static void main(String[] args){
         Student student = new Student();
+
         student.name = "Thiago";
         student.age = 26;
         student.gender = 'M';
