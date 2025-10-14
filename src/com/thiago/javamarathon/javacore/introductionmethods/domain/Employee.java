@@ -9,13 +9,42 @@ Then, implement two methods:
  */
 
 public class Employee{
-    public String name;
-    public int age;
-    public double[] salaries;
+    private String name;
+    private int age;
+    private double[] salaries;
+    private double average;
+
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public int getAge(){
+        return age;
+    }
+
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    public double[] getSalaries(){
+        return salaries;
+    }
+
+    public void setSalaries(double[] salaries){
+        this.salaries = salaries;
+    }
+
+    public double getAverage(){
+        return average;
+    }
 
     public void printData(){
-        System.out.println("Name: " + this.name);
-        System.out.println("Age: " + this.age);
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
 
         if(salaries == null){
             return;
@@ -24,21 +53,19 @@ public class Employee{
         System.out.print("Salaries: ");
 
         for(int i = 0; i < salaries.length; i++){
-            System.out.print(this.salaries[i] + " ");
+            System.out.print(salaries[i] + " ");
         }
     }
 
-    public void printAvgSalary(){
+    public void calculateAndPrintAvgSalary(){
         if(salaries == null){
             return;
         }
 
-        double sum = 0;
-
-        for(int i = 0; i < this.salaries.length; i++){
-            sum += salaries[i];
+        for(int i = 0; i < salaries.length; i++){
+            average += salaries[i] / salaries.length;
         }
 
-        System.out.println("Average Salary: " + sum / salaries.length);
+        System.out.println("Average Salary: " + average);
     }
 }

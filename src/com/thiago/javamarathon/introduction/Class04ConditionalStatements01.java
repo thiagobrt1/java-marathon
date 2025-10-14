@@ -6,7 +6,7 @@ public class Class04ConditionalStatements01{
         int age = 26;
         boolean hasAccess = age >= 18;
 
-        if (hasAccess){
+        if(hasAccess){
             System.out.println("Access authorized");
         }
         else{
@@ -14,7 +14,7 @@ public class Class04ConditionalStatements01{
         }
 
         // Logical NOT operator
-        if (!hasAccess){
+        if(!hasAccess){
             System.out.println("Access denied");
         }
 
@@ -22,10 +22,10 @@ public class Class04ConditionalStatements01{
         age = 21;
         String ageGroup;
 
-        if (age < 13){
+        if(age < 13){
             ageGroup = "child";
         }
-        else if (age >= 13 && age < 18){
+        else if(age >= 13 && age < 18){
             ageGroup = "adolescent";
         }
         else{
