@@ -18,7 +18,7 @@ public class Class04ConditionalStatements01{
             System.out.println("Access denied");
         }
 
-        // age < 13 child; age >=13 && age < 18 adolescent; age >= 18 adult.
+        // age < 13 child; age >=13 && age < 18 adolescent; age >= 18 adult
         age = 21;
         String ageGroup;
 

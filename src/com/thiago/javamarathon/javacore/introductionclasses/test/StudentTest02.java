@@ -18,6 +18,5 @@ public class StudentTest02{
         System.out.println(student2.name);
         System.out.println(student1.age);
         System.out.println(student1.gender);
-
     }
 }

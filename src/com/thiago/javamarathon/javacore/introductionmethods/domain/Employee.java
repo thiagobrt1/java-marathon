@@ -14,6 +14,33 @@ public class Employee{
     private double[] salaries;
     private double average;
 
+    public void printData(){
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+
+        if(salaries == null){
+            return;
+        }
+
+        System.out.print("Salaries: ");
+
+        for(int i = 0; i < salaries.length; i++){
+            System.out.print(salaries[i] + " ");
+        }
+    }
+
+    public void calculateAndPrintAvgSalary(){
+        if(salaries == null){
+            return;
+        }
+
+        for(int i = 0; i < salaries.length; i++){
+            average += salaries[i] / salaries.length;
+        }
+
+        System.out.println("Average Salary: " + average);
+    }
+
     public String getName(){
         return name;
     }
@@ -40,32 +67,5 @@ public class Employee{
 
     public double getAverage(){
         return average;
-    }
-
-    public void printData(){
-        System.out.println("Name: " + name);
-        System.out.println("Age: " + age);
-
-        if(salaries == null){
-            return;
-        }
-
-        System.out.print("Salaries: ");
-
-        for(int i = 0; i < salaries.length; i++){
-            System.out.print(salaries[i] + " ");
-        }
-    }
-
-    public void calculateAndPrintAvgSalary(){
-        if(salaries == null){
-            return;
-        }
-
-        for(int i = 0; i < salaries.length; i++){
-            average += salaries[i] / salaries.length;
-        }
-
-        System.out.println("Average Salary: " + average);
     }
 }

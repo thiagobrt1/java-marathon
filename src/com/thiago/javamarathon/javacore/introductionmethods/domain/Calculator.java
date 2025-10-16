@@ -51,7 +51,7 @@ public class Calculator{
         System.out.println(sum);
     }
 
-    //
+    // Varargs
     public void sumVarArgs(int... numbers){
         int sum = 0;
 
