@@ -1,10 +1,10 @@
 package com.thiago.javamarathon.javacore.staticmodifier.domain;
 
 /*
-1. Static initialization block is executed only once when JVM loads the class
-2. Memory allocated
+1. Static variables and static initialization blocks ars executed only once when JVM loads the class
+2. Memory is allocated
 3. Each attribute is initialized
-4. Instance initialization block
+4. Instance initialization blocks are executed
 5. Constructor is executed
  */
 
