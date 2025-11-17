@@ -26,8 +26,21 @@ public enum PaymentType{
 
     public static PaymentType getByDatabaseValue(int dbValue){
         PaymentType[] types = values();
+
         for(int i = 0; i < types.length; i++){
             if(types[i].DB_VALUE == dbValue){
+                return types[i];
+            }
+        }
+
+        return null;
+    }
+
+    public static PaymentType getByReportValue(String reportValue){
+        PaymentType[] types = values();
+
+        for(int i = 0; i < types.length; i++){
+            if(types[i].REPORT.equalsIgnoreCase(reportValue)){
                 return types[i];
             }
         }

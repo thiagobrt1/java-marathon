@@ -1,8 +1,6 @@
 package com.thiago.javamarathon.javacore.enumeration.domain;
 
 public class Customer{
-
-
     private String name;
     private CustomerType customerType;
     private PaymentType paymentType;

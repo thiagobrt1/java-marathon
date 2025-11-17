@@ -13,6 +13,18 @@ public enum CustomerType{
         this.REPORT = reportValue;
     }
 
+    public static CustomerType getByDatabaseValue(int dbValue){
+        CustomerType[] types = values();
+
+        for(int i = 0; i < types.length; i++){
+            if(types[i].DB_VALUE == dbValue){
+                return types[i];
+            }
+        }
+
+        return null;
+    }
+
     public static CustomerType getByReportValue(String reportValue){
         CustomerType[] types = values();
 

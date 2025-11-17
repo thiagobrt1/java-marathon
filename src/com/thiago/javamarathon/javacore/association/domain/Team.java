@@ -18,10 +18,10 @@ public class Team{
         this.name = name;
         this.players = players;
     }
-    
+
     public void print(){
         System.out.println(name);
-        
+
         if(players != null){
             for(int i = 0; i < players.length; i++){
                 System.out.println(players[i].getName());
